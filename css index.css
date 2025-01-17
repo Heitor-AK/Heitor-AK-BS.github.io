@@ -152,7 +152,7 @@ header {
   .menu li:hover,
   .menu li:focus {
     background: rgb(248, 187, 5);
-    transform: scale(1.035);
+    transform: scale(1);
     
   }
 .menu {
