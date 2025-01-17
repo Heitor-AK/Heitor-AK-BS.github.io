@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+ html {
+    background-image: url(Imagens/Fundo\ Cave\ Azuis.jpg);
+    background-size: cover;
+    background-position: center;
+ }
+
+ h1 {
+    background-color: rgb(248, 167, 5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Times, serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+}
+
+header p {
+    background-color: rgb(248, 167, 5);
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 10px;
+}
