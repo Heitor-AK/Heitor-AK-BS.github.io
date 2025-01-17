@@ -102,7 +102,7 @@ main {
 
 .menu li img {
     height: 250px;
-    width: 350px;
+    width: 340px;
     margin-top: 120px;
     margin-bottom: 0;
     border-radius: 1%;
@@ -152,7 +152,7 @@ header {
   .menu li:hover,
   .menu li:focus {
     background: rgb(248, 187, 5);
-    transform: scale(1.025);
+    transform: scale(1.035);
     
   }
 .menu {
