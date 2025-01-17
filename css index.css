@@ -37,7 +37,7 @@ h1 {
 }
 
 header {
-    background-image: url(Fundo\ Camp.jpg);
+    background-image: url(Imagens/Fundo\ Camp.jpg);
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -88,7 +88,7 @@ header {
 }
 
 main {
-    background-image: url(Fundo\ Cave\ Azuis.jpg);
+    background-image: url(Imagens/Fundo\ Cave\ Azuis.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -160,7 +160,7 @@ main {
 }
 
 footer{
-    background-image: url(Fundo\ Footer.jpeg);
+    background-image: url(Imagens/Fundo\ Footer.jpeg);
     background-size: cover;
     background-position: center;
     height: 120px;
