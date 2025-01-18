@@ -31,85 +31,56 @@ header p {
     padding-bottom: 10px;
 }
 
-header {
-    text-align: center;
-}
 
-.explicação {
-    background-color: rgb(248, 155, 5);
-    margin-top: 30px;
-    text-align: center;
+div p {
     color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 1.2em;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 2%;
 }
 
-.explicação p {
-    line-height: 1.5;
+div .corum {
+    background-color: rgb(248, 167, 5);
 }
 
-.campeoes .um {
-    height: 90px;
-    width: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+div .cordois {
+    background-color: rgb(248, 220, 5);
 }
 
-.campeoes .dois {
-    height: 220px;
-    width: 350px;
+div {
+    margin-top: 100px;
+
 }
 
-.campeoes p, .Brasil p {
-    font-size: 1.2em;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+nav {
+    background-color: rgb(248, 220, 5);
     color: white;
-    background-color: rgb(248, 155, 5);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 1.2em;
+    line-height: 1.3;
+    border-radius: 5%
+}
+
+nav p {
+    margin-top: 5px;
+}
+
+.final {
+    background-color: rgb(248, 220, 5);
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 2%;
+    margin-top: 50px;
+    font-size: 1.2em;
     padding: 5px;
 }
-
-.campeoes {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    align-items: center;
-    margin-top: 80px;
-}
-
-.br {
-    font-size: 2.3em;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    background-color: rgb(248, 175, 5);
-    padding: 5px;
-    text-align: center;
-    margin-top: 90px;
-
-}
-
-.Brasil {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    align-items: center;
-    margin-top: 80px;
-    margin-bottom: 40px;
-}
-
-.Brasil .um {
-    height: 100px;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
 
 footer {
     background-color: blue;
@@ -119,39 +90,47 @@ footer {
 }
 
 @media (min-width: 1100px) {
-    .Brasil .dois {
-        height: 260px;
-        width: 400px;
+    div img {
+        height: 380px;
+        width: 430px;
     }
 
-    nav {
+    div p {
+        max-width: 430px;
+    }
+
+    article {
         display: flex;
         justify-content: space-around;
     }
 }
 
 @media (max-width: 1099px) {
-    .Brasil .dois {
-        height: 220px;
-        width: 350px;
+    div img {
+        height: 280px;
+        width: 330px;
     }
 
-    nav {
+    div p {
+        max-width: 330px;
+    }
+
+    article {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 }
 
-article {
+article div {
     transition: transform 1s;
     transform: translateX(0) scale(1);
     border-radius: 1%;
     margin-bottom: 7px;
   }
   
-article:hover,
-article:focus {
-    background: rgb(248, 155, 5);
+article div:hover,
+article div:focus {
+    background: rgb(248, 187, 5);
     transform: scale(1.1);
   }
